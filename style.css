@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: slateblue;
+    font-family: Copperplate, fantasy;
+}
+
+button {
+    background: slategray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1rem;
+}
+
+button:active {
+    border-style: inset;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-variant: small-caps;
+    margin: 1rem;
+    user-select: none;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 0.2rem solid black;
+    cursor: default;
+    font-size: 8rem;
+    height: 150px;
+    text-align: center;
+    user-select: none;
+    width: 150px;
+}
+
+.jumbotron {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
